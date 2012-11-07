@@ -1,0 +1,42 @@
+{
+    "apps": {
+        "input": "apps",
+        "styles": "css",
+        "static": "static",
+        "templates": "templates",
+        "scripts": "js",
+        "output": "public/apps"
+    },
+    "vendors": {
+        "input": "vendors",
+        "distributions": {
+            "ember": [
+				"ember.js/packages/ember-debug",
+				"ember.js/packages/rsvp",
+                "ember.js/packages/ember-metal",
+                "ember.js/packages/ember-runtime",
+                "ember.js/packages/ember-views",
+                "ember.js/packages/ember-states",
+                "ember.js/packages/ember-routing",
+                "ember.js/packages/metamorph",
+                "ember.js/packages/ember-handlebars",
+                "ember.js/packages/ember-application"
+            ]
+        },
+        "styles": "css",
+        "static": "static",
+        "templates": "templates",
+        "scripts": "lib",
+        "output": "public/libraries"
+    },
+    "server": {
+        "static": "public",
+        "port": "3000",
+        "proxy": {
+            "useProxy": false,
+            "host": "localhost",
+            "port": 3101,
+            "prefix": "^/backend"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+[submodule "vendors/ember.js"]
+	path = vendors/ember.js
+	url = https://github.com/emberjs/ember.js.git
+[submodule "vendors/handlebars"]
+	path = vendors/handlebars
+	url = https://github.com/wycats/handlebars.js.git
